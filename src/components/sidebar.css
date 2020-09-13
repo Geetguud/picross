@@ -1,0 +1,55 @@
+.sidebar {
+    width: 20%;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 3em;
+    margin: 1rem 0;
+}
+
+.settings {
+    margin-top: 3rem;
+    width: 100%;
+    flex-direction: column;
+}
+
+.progress, .setup {
+    font-size: 2em;
+    margin: 1rem 0;
+}
+
+.setting-opt {
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    color: var(--dark);
+    padding: 0.2rem;
+    background-color: transparent;
+    border: 0.15rem solid var(--dark);
+}
+
+.setting-opt:hover { background-color: var(--light); }
+
+.size-opt {
+    margin: 0 1rem;
+    font-size: 0.8em;
+}
+
+.newgame {
+    margin: 1rem 0;
+    font-size: 1.5em;
+    padding: 0.2rem 0.5rem;
+}
+
+.changelight {
+    margin-top: 5rem;
+    border: none;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.changelight:hover {
+    background-color: transparent;
+    text-decoration: none;
+}

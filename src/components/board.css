@@ -1,0 +1,38 @@
+#board {
+    width: calc(var(--x) * var(--size));
+    height: calc(var(--y) * var(--size));
+    display: grid;
+    grid-template-rows: repeat(var(--y), var(--size));
+    grid-template-columns: repeat(var(--x), var(--size));
+    grid-row: 2;
+    grid-column: 2;
+    border: 0.01px solid var(--dark);
+    box-sizing: content-box;
+}
+
+.tile { cursor: pointer; }
+
+.checker { background-color: var(--light); }
+
+.tile:hover { background-color: var(--dark); }
+
+.tile-inactive {
+    background-color: var(--lighterdark);
+    border: 0.01px solid var(--light);
+}
+
+.oof {
+    color: var(--light);
+    font-size: 1.5rem;
+    background-color: var(--lightdark);
+}
+
+.oof-text { transform: rotate(-30deg); }
+
+.done {
+    cursor: default;
+    border: 0.01px solid var(--dark);
+    opacity: 0.6;
+}
+
+.done.checker, .done.tile:hover { background-color: unset; }

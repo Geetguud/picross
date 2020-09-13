@@ -1,0 +1,42 @@
+.pointer-deck {
+    display: grid;
+}
+
+.left {
+    width: 18rem;
+    height: calc(var(--y) * var(--size));
+    grid-row: 2;
+    grid-column: 1;
+    grid-template-rows: repeat(var(--y), var(--size));
+}
+
+.top {
+    width: calc(var(--x) * var(--size));
+    height: 18rem;
+    grid-row: 1;
+    grid-column: 2;
+    grid-template-columns: repeat(var(--x), var(--size));
+}
+
+.pointer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.point-left { padding: 0 1rem 0 0; }
+
+.point-top {
+    flex-direction: column;
+    padding: 0 0 1rem 0;
+}
+
+.pointer p {
+    margin: 0.2rem 0.4rem;
+}
+
+.highlight-left { border-right: 0.3rem solid var(--dark); }
+.highlight-top { border-bottom: 0.3rem solid var(--dark); }
