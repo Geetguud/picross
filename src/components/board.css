@@ -26,7 +26,7 @@
 
 .oof {
     color: var(--light);
-    font-size: calc(var(--size) / 2rem);
+    font-size: calc(var(--size) / 3);
     background-color: var(--lightdark);
 }
 
