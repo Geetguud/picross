@@ -36,6 +36,19 @@
     font-size: 0.8em;
 }
 
+.custom {
+    display: block;
+    font-size: 2em;
+    margin: 1rem 0;
+}
+
+.custom-input {
+    cursor: initial;
+    font-size: 0.8em;
+    margin-left: 1rem;
+    width: 14rem;
+}
+
 .newgame {
     margin: 1rem 0;
     font-size: 1.5em;
