@@ -10,7 +10,10 @@
     box-sizing: content-box;
 }
 
-.tile { cursor: pointer; }
+.tile {
+    cursor: pointer;
+    border: 0.01px solid var(--darkerlight);
+}
 
 .checker { background-color: var(--light); }
 
@@ -23,7 +26,7 @@
 
 .oof {
     color: var(--light);
-    font-size: 1.5rem;
+    font-size: calc(var(--size) / 2rem);
     background-color: var(--lightdark);
 }
 
