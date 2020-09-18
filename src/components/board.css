@@ -12,7 +12,8 @@
 
 .tile {
     cursor: pointer;
-    border: 0.01px solid var(--darkerlight);
+    border-right: 0.01px solid var(--darkerlight);
+    border-bottom: 0.01px solid var(--darkerlight);
 }
 
 .checker { background-color: var(--light); }

@@ -66,3 +66,11 @@
     background-color: transparent;
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+    .sidebar {
+        width: 90%;
+        margin-top: 3rem;
+        font-size: 1.3em;
+    }
+}
