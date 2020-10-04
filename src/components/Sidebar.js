@@ -65,6 +65,7 @@ function Sidebar(props) {
                 <button className="newgame setting-opt">new game</button>
             </form>
             <button className="changelight setting-opt" onClick={() => changelight()}>change light</button>
+            <p className="note">note: puzzle generation is completely random</p>
         </div>
     )
 }
