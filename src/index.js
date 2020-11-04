@@ -4,4 +4,4 @@ import App from "./components/App";
 import "./index.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
-console.log(process.env.REACT_APP_PICROSS);
+fetch(process.env.REACT_APP_PICROSS);
